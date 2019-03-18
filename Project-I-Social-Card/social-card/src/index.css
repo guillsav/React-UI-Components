@@ -7,8 +7,9 @@ html {
 }
 
 body {
+  color: #1f2326;
   margin: 0;
   padding: 0.4rem;
-  font-family: sans-serif;
+  font-family: Helvetica, sans-serif;
   font-size: 1.6rem;
 }
