@@ -13,8 +13,7 @@
   width: 90%;
 }
 
-.image-thumbnail {
-  background: url('./lambda-school-logo-red.jpg') center center / cover;
+.image-thumbnail img {
   width: 48px;
   height: 48px;
   border-radius: 50%;
