@@ -1,1 +1,48 @@
 /* All styles for your header Components live here */
+
+.header-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+  width: 100%;
+  padding: 10px;
+}
+
+.header-container .right {
+  width: 90%;
+}
+
+.image-thumbnail {
+  background: url('./lambda-school-logo-red.jpg') center center / cover;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.title h4 {
+  /* font-size: 1.4rem; */
+  margin: 0;
+}
+
+.title p {
+  color: rgb(181, 181, 181);
+  font-size: 1.4rem;
+  margin: 0;
+  margin-left: 5px;
+}
+
+.header-content {
+  font-size: 1.4rem;
+}
+.header-content p {
+  margin: 5px 0;
+  font-size: 1.4rem;
+}
