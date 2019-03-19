@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="16px" height="14px" viewBox="0 0 16 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="19px" height="18px" viewBox="0 0 19 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
-    <title>email-83</title>
+    <title>Fill 35</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="twitter/tweet" transform="translate(-310.000000, -486.000000)" stroke="#657786">
-            <g id="Tweet">
-                <g id="Content" transform="translate(68.000000, 20.000000)">
-                    <g id="Info-tweet" transform="translate(2.000000, 465.000000)">
-                        <g id="email-83" transform="translate(240.000000, 1.000000)">
-                            <polyline id="Shape" points="0.5 4 8 8 15.5 4"></polyline>
-                            <path d="M14.5,13.5 L1.5,13.5 C0.948,13.5 0.5,13.052 0.5,12.5 L0.5,1.5 C0.5,0.948 0.948,0.5 1.5,0.5 L14.5,0.5 C15.052,0.5 15.5,0.948 15.5,1.5 L15.5,12.5 C15.5,13.052 15.052,13.5 14.5,13.5 Z" id="Shape"></path>
-                        </g>
-                    </g>
-                </g>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Twitter_TweetTreatment_TextOnlyOnImageOrVideoBackground" transform="translate(-414.000000, -276.000000)" fill="#657786">
+            <g id="Group" transform="translate(302.000000, 276.000000)">
+                <path d="M128.097932,15.744979 L114.148068,15.744979 C113.776145,15.744979 113.47259,15.4427912 113.47259,15.0708678 L113.47259,5.48290064 L119.989454,9.8256536 C120.33403,10.0567384 120.729199,10.1715971 121.123,10.1715971 C121.518169,10.1715971 121.913337,10.0567384 122.256546,9.82702097 L128.77341,5.48290064 L128.77341,15.0708678 C128.77341,15.4427912 128.471222,15.744979 128.097932,15.744979 Z M114.148068,2.13558979 L128.097932,2.13558979 C128.471222,2.13558979 128.77341,2.43914494 128.77341,2.81106837 L128.77341,3.90359344 L121.52774,8.7344959 C121.281614,8.8972124 120.964386,8.89857976 120.71826,8.73312853 L113.47259,3.90359344 L113.47259,2.81106837 C113.47259,2.43914494 113.776145,2.13558979 114.148068,2.13558979 Z M128.097932,0.786 L114.148068,0.786 C113.030931,0.786 112.123,1.69529809 112.123,2.81106837 L112.123,15.0708678 C112.123,16.1866381 113.030931,17.0959362 114.148068,17.0959362 L128.097932,17.0959362 C129.215069,17.0959362 130.123,16.1866381 130.123,15.0708678 L130.123,2.81106837 C130.123,1.69529809 129.215069,0.786 128.097932,0.786 Z" id="Fill-35"></path>
             </g>
         </g>
     </g>
