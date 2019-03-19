@@ -1,0 +1,46 @@
+.clear-button {
+  height: 20%;
+  border-bottom: 2px solid lightgray;
+}
+
+.clear-button button {
+  border: none;
+  font-size: 4.2rem;
+  font-weight: 300;
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+.pad {
+  width: 33.3%;
+}
+
+.pad button {
+  border: 1px solid lightgray;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  font-size: 4.2rem;
+  cursor: pointer;
+  outline: none;
+}
+
+.math-button {
+  width: 100%;
+  height: 20%;
+}
+
+.math-button button {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-bottom: 2px solid lightgray;
+  background: darkred;
+  color: white;
+  font-size: 4.2rem;
+  font-weight: 200;
+  cursor: pointer;
+  outline: none;
+}
