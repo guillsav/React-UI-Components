@@ -3,9 +3,9 @@ import React from 'react';
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 import {
   ClearButton,
-  CalcButton,
-  NumberButton
+  CalcButton
 } from './components/ButtonComponents/ActionButton';
+import NumberButton from './components/ButtonComponents/NumberButton';
 
 import './App.css';
 
@@ -32,7 +32,7 @@ const actionButton = [
   }
 ];
 
-const numbers = [7, 8, 9, 4, 5, 6, 1, 2, 3];
+const numbers = [7, 8, 9, 4, 5, 6, 1, 2, 3, 0];
 
 const App = () => {
   return (
@@ -56,9 +56,14 @@ const App = () => {
         <div className="display-buttons">
           <ClearButton />
           <div className="number-buttons">
-            {numbers.map(num => (
-              <NumberButton key={num} num={num} />
-            ))}
+            {numbers.map(
+              num => num !== 0 && <NumberButton key={num} num={num} />
+            )}
+          </div>
+          <div className="zero">
+            {numbers.map(
+              num => num === 0 && <NumberButton key={num} num={num} />
+            )}
           </div>
         </div>
         <div className="calc-button">

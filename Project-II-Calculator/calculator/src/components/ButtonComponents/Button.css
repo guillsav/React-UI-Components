@@ -1,6 +1,7 @@
 .clear-button {
   height: 20%;
   border-bottom: 2px solid lightgray;
+  border-right: 2px solid lightgray;
 }
 
 .clear-button button {
@@ -18,11 +19,14 @@
 }
 
 .pad button {
-  border: 1px solid lightgray;
+  border: none;
+  border-right: 2px solid lightgray;
+  border-bottom: 2px solid lightgray;
   width: 100%;
   height: 100%;
   padding: 20px;
   font-size: 4.2rem;
+  font-weight: 600;
   cursor: pointer;
   outline: none;
 }
@@ -39,8 +43,8 @@
   border-bottom: 2px solid lightgray;
   background: darkred;
   color: white;
-  font-size: 4.2rem;
-  font-weight: 200;
+  font-size: 5.2rem;
+  font-weight: 300;
   cursor: pointer;
   outline: none;
 }

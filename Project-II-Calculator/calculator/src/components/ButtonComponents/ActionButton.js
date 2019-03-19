@@ -16,11 +16,3 @@ export const CalcButton = ({icon}) => {
     </a>
   );
 };
-
-export const NumberButton = ({num}) => {
-  return (
-    <a className="pad">
-      <button>{num}</button>
-    </a>
-  );
-};
