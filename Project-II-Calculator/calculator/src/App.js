@@ -1,10 +1,7 @@
 import React from 'react';
 
 import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
-import {
-  ClearButton,
-  CalcButton
-} from './components/ButtonComponents/ActionButton';
+import ActionButton from './components/ButtonComponents/ActionButton';
 import NumberButton from './components/ButtonComponents/NumberButton';
 
 import './App.css';
@@ -32,7 +29,7 @@ const actionButton = [
   }
 ];
 
-const numbers = [7, 8, 9, 4, 5, 6, 1, 2, 3, 0];
+const numbers = ['clear', 7, 8, 9, 4, 5, 6, 1, 2, 3, 0];
 
 const App = () => {
   return (
@@ -53,11 +50,17 @@ const App = () => {
     <div className="app">
       <CalculatorDisplay />
       <div className="buttons">
-        <div className="display-buttons">
-          <ClearButton />
+        <div className="left">
+          <div className="clear">
+            {numbers.map(
+              num => num === 'clear' && <NumberButton key={num} num={num} />
+            )}
+          </div>
           <div className="number-buttons">
             {numbers.map(
-              num => num !== 0 && <NumberButton key={num} num={num} />
+              num =>
+                num !== 0 &&
+                num !== 'clear' && <NumberButton key={num} num={num} />
             )}
           </div>
           <div className="zero">
@@ -68,7 +71,7 @@ const App = () => {
         </div>
         <div className="calc-button">
           {actionButton.map(({key, icon}) => (
-            <CalcButton key={key} icon={icon} />
+            <ActionButton key={key} icon={icon} />
           ))}
         </div>
       </div>

@@ -1,18 +1,12 @@
 import React from 'react';
 import './Button.css';
 
-export const ClearButton = () => {
-  return (
-    <a className="clear-button">
-      <button>clear</button>
-    </a>
-  );
-};
-
-export const CalcButton = ({icon}) => {
+const ActionButton = ({icon}) => {
   return (
     <a className="math-button">
       <button>{icon}</button>
     </a>
   );
 };
+
+export default ActionButton;
