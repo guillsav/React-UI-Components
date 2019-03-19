@@ -5,11 +5,11 @@
   align-items: flex-start;
   justify-content: space-between;
   width: 100%;
-  padding: 10px;
+  padding: 10px 0;
 }
 
 .header-container .right {
-  width: 90%;
+  width: 89%;
 }
 
 .image-thumbnail img {
